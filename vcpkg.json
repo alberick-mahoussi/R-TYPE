@@ -1,0 +1,14 @@
+{
+    "name": "r-type",
+    "version": "0.1.0",
+    "features": {
+      "rtype": {
+        "description": "build r-type",
+        "dependencies": [
+          "asio",
+          "sfml",
+          "pthread"
+        ]
+      }
+    }
+}

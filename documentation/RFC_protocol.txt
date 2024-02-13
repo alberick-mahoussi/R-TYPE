@@ -1,0 +1,65 @@
+
+Server:
+
+100:
+    New clinet in the game
+203:
+    Send map or position of player, or position of bullet or obstacle
+
+200: 
+    New game room created by  client
+
+201: 
+    Client need to join room
+
+202: 
+    Client want to start game
+
+204:
+    Client move player
+
+206:
+    Client want to shoot
+
+207:
+    Create ob new bullet
+
+
+Client:
+
+    99:
+        List of room available send by server
+    121: 
+        List of player in room after create oir join room
+
+    203: 
+        Recceive position of player, bullet, or obstacles
+
+    206: 
+        bullet creation
+    
+    200:
+        Creation of looby
+
+    201:
+        Join of Lobby
+    
+    202: 
+        Send to the server message to start the game
+    
+    207:
+        Receive the  position of bullet create by server
+
+    206:
+        Send to the server the move of  obstacle
+
+    500:
+        Room exist with that name
+
+    501:
+        room full (player superior or equal to 4)
+
+    502:
+        room with that name don't exist    
+
+
