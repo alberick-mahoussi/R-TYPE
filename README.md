@@ -45,6 +45,18 @@ cmake .. -DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake -DCMAKE_B
 cmake --build .
 ```
 
+### Usage of executables
+You have two executables the r_type_server and the r_type_client.
+```sh
+You must start the r_type_server with the port argument ex: 8080
+```
+```sh
+if it is on the same machine in another terminal the r_type_client executable only you will have a graphical interface where you must type your username,
+the IP and the port of the server to which you want to connect
+```
+### Wearning
+If you want to play on different computers don't forget to allow external connections on the machine which runs the server executable
+
 ## Contributors
 
 * sean.jaboulet@epitech.eu
